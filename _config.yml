@@ -79,7 +79,7 @@ sitemap:
 
 feed:
   type: atom
-  path: atom.xml
-  limit: 20
+  path: rss
+  limit: 50
   hub:
   content:
