@@ -73,3 +73,13 @@ deploy:
   type: git
   repo: https://github.com/SzymonSasin/blog.git
   branch: gh-pages
+
+sitemap:
+  path: sitemap.xml
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
