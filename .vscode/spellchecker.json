@@ -2,7 +2,9 @@
     "language": "en_US",
     "ignoreWordsList": [
         "componets",
-        "rollup"
+        "rollup",
+        "WebPack",
+        "desing"
     ],
     "documentTypes": [
         "markdown",
