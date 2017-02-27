@@ -7,6 +7,7 @@
   },
   "scripts": {
     "hx-clean": "hexo clean",
+    "hx-nex": "hexo new test",
     "generate": "hexo generate",
     "deploy-to-git": "hexo deploy",
     "deploy": "npm run hx-clean && npm run generate && npm run deploy-to-git"
