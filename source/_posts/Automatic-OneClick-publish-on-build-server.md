@@ -44,7 +44,7 @@ The last step is is Build configuration. It requires two steps:
 
 I have defined the variables as: 
 
-![Varaibles](http://blog.sasin.eu/content/images/2015/10/varaibles.PNG)
+![Varaibles](images/2015/10/varaibles.PNG)
 
 1.  Steps
 

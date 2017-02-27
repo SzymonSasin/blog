@@ -14,16 +14,16 @@ I have been trying to show the results of my tests run for dotnet core project. 
 
 Simples solution was to use a default _.NET Core step_ with Command test. You have to remember to add the argument for the output _-xml path_ 
 
-![run dotnet core test](http://blog.sasin.eu/content/images/2016/12/test.PNG)
+![run dotnet core test](/images/publish-dotnet-test-vs-team-services-build-results/test.PNG)
 
 Then I have used the _Publish test Results_, which do the all the work. 
 
-![publish test result](http://blog.sasin.eu/content/images/2016/12/publish.PNG)
+![publish test result](/images/publish-dotnet-test-vs-team-services-build-results/publish.PNG)
 
 To make my life easier I have added a new variable to store the test result path. 
 
-![variable to remove error possiblity](http://blog.sasin.eu/content/images/2016/12/variable.PNG)
+![variable to remove error possiblity](/images/publish-dotnet-test-vs-team-services-build-results/variable.PNG)
 
 Now I can see the test results in the summary of every build. 
 
-![build summary](http://blog.sasin.eu/content/images/2016/12/results.PNG).
+![build summary](/images/publish-dotnet-test-vs-team-services-build-results/results.PNG).

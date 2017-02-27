@@ -12,7 +12,7 @@ date: 2016-05-23 20:27:46
 
 When I switched to RC2 and tried to publish the website I got the error about missing configuration file.
 
-![sample error](http://blog.sasin.eu/content/images/2016/05/configuration-error-1.PNG)
+![sample error](images/2016/05/configuration-error-1.PNG)
 
 # **Problem**
 
