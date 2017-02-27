@@ -1,11 +1,11 @@
 ---
 title: The configuration file 'Configuration.json' was not found and is not optional.
+date: 2016-05-23
 tags: 
   - bug
   - ASP.NET Core
 categories:
   - programming
-date: 2016-05-23 20:27:46
 ---
 
 ## **The problem**

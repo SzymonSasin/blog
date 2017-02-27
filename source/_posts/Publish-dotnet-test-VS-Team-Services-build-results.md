@@ -1,11 +1,11 @@
 ---
 title: Publish dotnet test VS Team Services build results
+date: 2016-12-13
 tags:
   - Visual Studio Team Services
   - test
 categories:
-  - Continous Integration, Continuous Deployment
-date: 2016-12-13 10:07:17
+  - Continuous Integration, Continuous Deployment
 ---
 
 For my pet project I am using the [Visual Studio Team Services](https://www.visualstudio.com/team-services/) as my online CICD server.
