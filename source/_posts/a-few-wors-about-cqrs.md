@@ -11,7 +11,7 @@ categories:
 
 CQRS (or CQS), because the both names are used to identify the same pattern, is a abbreviation of Command and Query (Responsibility) Segregation.
 
-# Pattern
+## Pattern
 
 Simply saying the CQRS means that you should split yours 
 
@@ -29,12 +29,12 @@ On the other hand commands are used to update data. The command should not retur
 
 Commands tends to use slower frameworks. As well as running all data verification and validation before save.
 
-# Benefits
+## Benefits
 
 *   Different models.can ( and should) use to different model for read/write. For example you can read your data using simple queries with Daper. And then write all commands using EntityFramework with all power ( and lack of speed) of it.
 *   Cleaner code.
 Because you have to think different about commands and queries suddenly the problem "Should I return id for just created entity" does not exists any more.
 
-# Common misconceptions
+## Common misconceptions
 
 CQRS is not EventSourcing (ES). They come together very nicely but both could be used separately without any problems. 
