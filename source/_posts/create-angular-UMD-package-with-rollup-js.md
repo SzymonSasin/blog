@@ -1,6 +1,6 @@
 ---
 title: Create angular UMD package with rollup.js
-date: 2017-02-27 09:42:07
+date: 2017-02-27
 tags: 
     - angular
     - rollup.js
@@ -33,3 +33,9 @@ I also managed to include the html and sass files into a bundle. So for developm
 <script src="https://gist.github.com/SzymonSasin/c812cae6563c7e93fbd2e0887b5c7a94.js"></script>
 
 ## rollup js configuration file
+<script src="https://gist.github.com/SzymonSasin/38b7c2740c2b2103b15243a22eb37bfc.js"></script>
+
+With this two configs you have to run ` npm run rollup -c ` to compile and package the angular app.
+
+This solution is not sustainable for future mainly because compilation is done by tsc(typescript compiler) not a ngc(angular compiler) but it works for now..  
+
