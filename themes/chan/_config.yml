@@ -56,7 +56,7 @@ fb_admins:
 fb_app_id:
 
 # analytics ids
-google_analytics:
+google_analytics: UA-67381706-1
 baidu_statistics:
 
 # default creative commons

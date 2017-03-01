@@ -1,14 +1,15 @@
 ---
-title: 'A few wors about: CQRS.'
-date: 2016-12-19 09:26:54
+title: 'A few words about: CQRS'
+date: 2017-02-20
 tags:
   - patterns
   - data access
+  - a few words about
 categories:
   - software development
 ---
 
-CQRS or CQS, because the both names are used to identify the same pattern, is a abbreviation of Command and Query (Responsibility) Segregation.
+CQRS (or CQS), because the both names are used to identify the same pattern, is a abbreviation of Command and Query (Responsibility) Segregation.
 
 # Pattern
 
