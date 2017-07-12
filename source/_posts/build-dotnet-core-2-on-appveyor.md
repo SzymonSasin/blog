@@ -7,7 +7,8 @@ tags:
 categories:
   - devops
 ---
-#Problem
+
+# Problem
 
 As for not the AppVeyor does not support running of .NET Core 2 preview. 
 
