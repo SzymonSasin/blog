@@ -11,6 +11,9 @@
     "deploy-to-git": "hexo deploy",
     "deploy": "npm run hx-clean && npm run generate && npm run deploy-to-git"
   },
+  "devDependencies": {
+    "hexo-cli": "^1.0.3"
+  },
   "dependencies": {
     "hexo": "^3.3.9",
     "hexo-deployer-git": "^0.3.1",
