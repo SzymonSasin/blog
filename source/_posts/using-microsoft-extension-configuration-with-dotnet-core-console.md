@@ -1,8 +1,8 @@
 ---
-title: Using Microsoft.Extension.Configuration for console app configuration
-date: 2018-01-07 13:53:07
+title: Using Microsoft.Extension.Configuration with dotnet core console project
+date: 2018-01-06
 tags:
-  - ASP.NET Core
+  - dotne core
   - console
   - Microsoft.Extensions
   - post per week 
@@ -10,10 +10,10 @@ tags:
 categories:
   - programming
 ---
-## requirements 
+## Problem 
 Lately I have created the small console application. Because, I have used dotnet core and I need to add some persistent configuration. Because, web.config is no longer existing by default in new framework, I have used the new *Microsoft.Extension.Configuraiton* classes. This set of assemblies allow to use and mix difference source for configuration. Now you can store some configuration in xml, ini or json and then merge it with environmental variables.
 
-## solution
+## Solution
 My solution was to load [Microsoft.Extension.Configuration](https://www.nuget.org/packages/Microsoft.Extensions.Configuration/) with [Microsoft.Extension.Configuration.CommandLine](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Json/) and Microsoft.Extension.Configuration [Microsoft.Extensions.Configuration.Json]( https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Json/) NuGets to allow me to load configuration and pass it from command line.
 
 Because I am using MS Extension library I can be config source agnostic, that is I can plan to use json configuration file but test it by passing configuration from command line.
@@ -26,7 +26,7 @@ After that you can configure it with any method required:
 After that you need to finalize it by building;
 <script src="https://gist.github.com/Assassyn/f843ca426965192799a2eff4cf957811.js"></script>
 
-## benefits
+## Benefits
 The results is **IConfigurationRoot** object. This object allows you to access contant in two ways 
 * first, a flat indexer based on a key-value approach
 * second, object oriented way to use IConfigurationSections to crawl the object hierarchy inside configuration. 
