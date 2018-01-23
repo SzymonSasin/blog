@@ -18,7 +18,7 @@ My solution was to load [Microsoft.Extension.Configuration](https://www.nuget.or
 
 Because I am using MS Extension library I can be config source agnostic, that is I can plan to use json configuration file but test it by passing configuration from command line.
 
-## Output of build
+# Output of build
 To start with using, you need to create ConfigurationBuilder
 <script src="https://gist.github.com/Assassyn/0b7e552cc0b4dbc878bb23da57a9ad91.js"></script>
 After that you can configure it with any method required:
@@ -32,4 +32,5 @@ The results is **IConfigurationRoot** object. This object allows you to access c
 * second, object oriented way to use IConfigurationSections to crawl the object hierarchy inside configuration. 
 
 For example configuration file: <script src="https://gist.github.com/Assassyn/1fcb379f3b683c96bd1a95484c409328.js"></script>
+The value of alpha can be access by using *test:alpha* key or getting alpha key from test section.
 The value of alpha can be access by using *test:alpha* key or getting alpha key from test section.
