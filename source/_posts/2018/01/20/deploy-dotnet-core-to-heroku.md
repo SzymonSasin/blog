@@ -9,7 +9,7 @@ tags:
     - cli
 categories: 
     - devops
-    - CICD
+    - Continuous Integration, Continuous Deployment
 ---
 
 # Why?

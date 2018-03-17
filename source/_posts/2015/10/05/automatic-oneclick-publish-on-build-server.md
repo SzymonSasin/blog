@@ -1,11 +1,11 @@
 ---
 title: Automatic OneClick publish on build server
+date: 2015-10-05
 tags:
   - OneClick
   - Powershell
 categories:
   - Continous Integration, Continuous Deployment
-date: 2015-10-05
 ---
 
 I like the idea of the Continuous Deployment. I am also using the Visual Studio Online build server. 

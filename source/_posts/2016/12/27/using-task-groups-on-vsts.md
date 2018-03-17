@@ -1,10 +1,10 @@
 ---
 title: Using Task Groups on VSTS
+date: 2016-12-27 10:30:48
 tags:
   - Visual Studio Team Services
 categories:
   - Continous Integration, Continuous Deployment
-date: 2016-12-27 10:30:48
 comments: true
 ---
 
