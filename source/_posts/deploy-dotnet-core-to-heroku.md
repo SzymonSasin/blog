@@ -58,4 +58,4 @@ COPY . .
 CMD ASPNETCORE_URLS=http://*:$PORT dotnet Lizards.Transferoo.Web.dll
 ```
 
-That way I have running dotnet core webiste in heroku.
+That way I have running dotnet core website in heroku.
