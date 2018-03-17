@@ -6,7 +6,6 @@ tags:
   - console
   - Microsoft.Extensions
   - post per week 
-  - post no 1 of 52
 categories:
   - programming
 ---

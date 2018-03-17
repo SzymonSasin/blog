@@ -6,7 +6,6 @@ tags:
     - heroku
     - vso
     - post per week 
-    - post no 3 of 52
     - cli
 categories: 
     - devops
