@@ -8,7 +8,6 @@ tags:
     - post per week 
     - cli
 categories: 
-    - devops
     - Continuous Integration, Continuous Deployment
 ---
 ## Why?
@@ -55,5 +54,9 @@ WORKDIR /app
 COPY . .
 CMD ASPNETCORE_URLS=http://*:$PORT dotnet Lizards.Transferoo.Web.dll
 ```
+
+### Make it running on Visual Studio Online
+
+In the end, it seems that VSO enviroment is kind of differente that 
 
 That way I have running dotnet core website in heroku.
