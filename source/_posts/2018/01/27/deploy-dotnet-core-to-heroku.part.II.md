@@ -1,6 +1,6 @@
 ---
 title: Deploy Dotnet Core to heroku (part II)
-date: 2018-01-20
+date: 2018-01-27
 tags:
     - dotnet core
     - heroku
