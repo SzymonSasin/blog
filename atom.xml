@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Challange your mind</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://blog.sasin.eu/"/>
+  <updated>2018-03-21T09:08:20.151Z</updated>
+  <id>http://blog.sasin.eu/</id>
+  
+  <author>
+    <name>Szymon M Sasin</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Deploy Dotnet Core to Heroku (Part II)</title>
+    <link href="http://blog.sasin.eu/2018/01/27/deploy-dotnet-core-to-heroku.part.II/"/>
+    <id>http://blog.sasin.eu/2018/01/27/deploy-dotnet-core-to-heroku.part.II/</id>
+    <published>2018-01-27T00:00:00.000Z</published>
+    <updated>2018-03-21T09:08:20.151Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Why&quot;&gt;&lt;a href=&quot;#Why&quot; class=&quot;headerlink&quot; title=&quot;Why?&quot;&gt;&lt;/a&gt;Why?&lt;/h2&gt;&lt;p&gt;As it seems publishing to &lt;a href=&quot;https://heroku.com from [Visu
+      
+    
+    </summary>
+    
+      <category term="Continuous Integration, Continuous Deployment" scheme="http://blog.sasin.eu/categories/Continuous-Integration-Continuous-Deployment/"/>
+    
+    
+      <category term="dotnet core" scheme="http://blog.sasin.eu/tags/dotnet-core/"/>
+    
+      <category term="post per week" scheme="http://blog.sasin.eu/tags/post-per-week/"/>
+    
+      <category term="heroku" scheme="http://blog.sasin.eu/tags/heroku/"/>
+    
+      <category term="vso" scheme="http://blog.sasin.eu/tags/vso/"/>
+    
+      <category term="cli" scheme="http://blog.sasin.eu/tags/cli/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Deploy Dotnet Core to Heroku</title>
+    <link href="http://blog.sasin.eu/2018/01/20/deploy-dotnet-core-to-heroku/"/>
+    <id>http://blog.sasin.eu/2018/01/20/deploy-dotnet-core-to-heroku/</id>
+    <published>2018-01-20T00:00:00.000Z</published>
+    <updated>2018-03-21T09:08:20.150Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Why&quot;&gt;&lt;a href=&quot;#Why&quot; class=&quot;headerlink&quot; title=&quot;Why?&quot;&gt;&lt;/a&gt;Why?&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://heroku.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hero
+      
+    
+    </summary>
+    
+      <category term="devops" scheme="http://blog.sasin.eu/categories/devops/"/>
+    
+      <category term="Continuous Integration, Continuous Deployment" scheme="http://blog.sasin.eu/categories/devops/Continuous-Integration-Continuous-Deployment/"/>
+    
+    
+      <category term="dotnet core" scheme="http://blog.sasin.eu/tags/dotnet-core/"/>
+    
+      <category term="post per week" scheme="http://blog.sasin.eu/tags/post-per-week/"/>
+    
+      <category term="heroku" scheme="http://blog.sasin.eu/tags/heroku/"/>
+    
+      <category term="vso" scheme="http://blog.sasin.eu/tags/vso/"/>
+    
+      <category term="cli" scheme="http://blog.sasin.eu/tags/cli/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Using Microsoft.Extensions.Logging With Dotnet Core Console Project</title>
+    <link href="http://blog.sasin.eu/2018/01/13/using-microsoft-extensions-logging-with-dotnet-core-console/"/>
+    <id>http://blog.sasin.eu/2018/01/13/using-microsoft-extensions-logging-with-dotnet-core-console/</id>
+    <published>2018-01-13T00:00:00.000Z</published>
+    <updated>2018-03-21T09:08:20.149Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Problem&quot;&gt;&lt;a href=&quot;#Problem&quot; class=&quot;headerlink&quot; title=&quot;Problem&quot;&gt;&lt;/a&gt;Problem&lt;/h2&gt;&lt;p&gt;Next step with my dotnet core console application 
+      
+    
+    </summary>
+    
+      <category term="programming" scheme="http://blog.sasin.eu/categories/programming/"/>
+    
+    
+      <category term="dotne core" scheme="http://blog.sasin.eu/tags/dotne-core/"/>
+    
+      <category term="console" scheme="http://blog.sasin.eu/tags/console/"/>
+    
+      <category term="Microsoft.Extensions" scheme="http://blog.sasin.eu/tags/Microsoft-Extensions/"/>
+    
+      <category term="post per week" scheme="http://blog.sasin.eu/tags/post-per-week/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Using Microsoft.Extension.Configuration With Dotnet Core Console Project</title>
+    <link href="http://blog.sasin.eu/2018/01/06/using-microsoft-extension-configuration-with-dotnet-core-console/"/>
+    <id>http://blog.sasin.eu/2018/01/06/using-microsoft-extension-configuration-with-dotnet-core-console/</id>
+    <published>2018-01-06T00:00:00.000Z</published>
+    <updated>2018-03-21T09:08:20.148Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Problem&quot;&gt;&lt;a href=&quot;#Problem&quot; class=&quot;headerlink&quot; title=&quot;Problem&quot;&gt;&lt;/a&gt;Problem&lt;/h2&gt;&lt;p&gt;Lately I have created the small console applicatio
+      
+    
+    </summary>
+    
+      <category term="programming" scheme="http://blog.sasin.eu/categories/programming/"/>
+    
+    
+      <category term="dotne core" scheme="http://blog.sasin.eu/tags/dotne-core/"/>
+    
+      <category term="console" scheme="http://blog.sasin.eu/tags/console/"/>
+    
+      <category term="Microsoft.Extensions" scheme="http://blog.sasin.eu/tags/Microsoft-Extensions/"/>
+    
+      <category term="post per week" scheme="http://blog.sasin.eu/tags/post-per-week/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Build Dotnet Core 2 on AppVeyor</title>
+    <link href="http://blog.sasin.eu/2017/07/12/build-dotnet-core-2-on-appveyor/"/>
+    <id>http://blog.sasin.eu/2017/07/12/build-dotnet-core-2-on-appveyor/</id>
+    <published>2017-07-12T00:00:00.000Z</published>
+    <updated>2018-03-21T09:08:20.146Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Problem&quot;&gt;&lt;a href=&quot;#Problem&quot; class=&quot;headerlink&quot; title=&quot;Problem&quot;&gt;&lt;/a&gt;Problem&lt;/h1&gt;&lt;p&gt;As for not the AppVeyor does not support running o
+      
+    
+    </summary>
+    
+      <category term="devops" scheme="http://blog.sasin.eu/categories/devops/"/>
+    
+    
+      <category term="dotnet core" scheme="http://blog.sasin.eu/tags/dotnet-core/"/>
+    
+      <category term="appveyor" scheme="http://blog.sasin.eu/tags/appveyor/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Custom Json Converter in NewtonSoft.Json</title>
+    <link href="http://blog.sasin.eu/2017/06/08/custom-json-converter-in-newtonsoft-json/"/>
+    <id>http://blog.sasin.eu/2017/06/08/custom-json-converter-in-newtonsoft-json/</id>
+    <published>2017-06-08T00:00:00.000Z</published>
+    <updated>2018-03-21T09:08:20.144Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="programming" scheme="http://blog.sasin.eu/categories/programming/"/>
+    
+    
+      <category term="json" scheme="http://blog.sasin.eu/tags/json/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Create Angular UMD Package With rollup.js</title>
+    <link href="http://blog.sasin.eu/2017/02/27/create-angular-UMD-package-with-rollup-js/"/>
+    <id>http://blog.sasin.eu/2017/02/27/create-angular-UMD-package-with-rollup-js/</id>
+    <published>2017-02-27T00:00:00.000Z</published>
+    <updated>2018-03-21T09:08:20.142Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Components-for-Angular-2&quot;&gt;&lt;a href=&quot;#Components-for-Angular-2&quot; class=&quot;headerlink&quot; title=&quot;Components for Angular 2&quot;&gt;&lt;/a&gt;Components for
+      
+    
+    </summary>
+    
+      <category term="programming" scheme="http://blog.sasin.eu/categories/programming/"/>
+    
+    
+      <category term="angular" scheme="http://blog.sasin.eu/tags/angular/"/>
+    
+      <category term="rollup.js" scheme="http://blog.sasin.eu/tags/rollup-js/"/>
+    
+      <category term="universal media definition" scheme="http://blog.sasin.eu/tags/universal-media-definition/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>A Few Words About: CQRS</title>
+    <link href="http://blog.sasin.eu/2017/02/20/a-few-wors-about-cqrs/"/>
+    <id>http://blog.sasin.eu/2017/02/20/a-few-wors-about-cqrs/</id>
+    <published>2017-02-20T00:00:00.000Z</published>
+    <updated>2018-03-21T09:08:20.141Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;CQRS (or CQS), because the both names are used to identify the same pattern, is a abbreviation of Command and Query (Responsibility) Segr
+      
+    
+    </summary>
+    
+      <category term="software development" scheme="http://blog.sasin.eu/categories/software-development/"/>
+    
+    
+      <category term="patterns" scheme="http://blog.sasin.eu/tags/patterns/"/>
+    
+      <category term="data access" scheme="http://blog.sasin.eu/tags/data-access/"/>
+    
+      <category term="a few words about" scheme="http://blog.sasin.eu/tags/a-few-words-about/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Parsing Real Number in Different Locale</title>
+    <link href="http://blog.sasin.eu/2017/02/13/parsing-real-number-in-different-locale/"/>
+    <id>http://blog.sasin.eu/2017/02/13/parsing-real-number-in-different-locale/</id>
+    <published>2017-02-13T00:00:00.000Z</published>
+    <updated>2018-03-21T09:08:20.140Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;problem&quot;&gt;&lt;a href=&quot;#problem&quot; class=&quot;headerlink&quot; title=&quot;problem&quot;&gt;&lt;/a&gt;problem&lt;/h1&gt;&lt;p&gt;Recently, I have created the library to convert th
+      
+    
+    </summary>
+    
+      <category term="programming" scheme="http://blog.sasin.eu/categories/programming/"/>
+    
+    
+      <category term="c-sharp" scheme="http://blog.sasin.eu/tags/c-sharp/"/>
+    
+      <category term="problem" scheme="http://blog.sasin.eu/tags/problem/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Using Task Groups on VSTS</title>
+    <link href="http://blog.sasin.eu/2016/12/27/using-task-groups-on-vsts/"/>
+    <id>http://blog.sasin.eu/2016/12/27/using-task-groups-on-vsts/</id>
+    <published>2016-12-27T10:30:48.000Z</published>
+    <updated>2018-03-21T09:08:20.122Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Recently I have discoverd a briliant way to reuse configuration of task between diferent projects.&lt;/p&gt;
+&lt;p&gt;As the ersult the new item is a
+      
+    
+    </summary>
+    
+      <category term="Continous Integration, Continuous Deployment" scheme="http://blog.sasin.eu/categories/Continous-Integration-Continuous-Deployment/"/>
+    
+    
+      <category term="Visual Studio Team Services" scheme="http://blog.sasin.eu/tags/Visual-Studio-Team-Services/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Publish Dotnet Test vs Team Services Build Results</title>
+    <link href="http://blog.sasin.eu/2016/12/13/publish-dotnet-test-vs-team-services-build-results/"/>
+    <id>http://blog.sasin.eu/2016/12/13/publish-dotnet-test-vs-team-services-build-results/</id>
+    <published>2016-12-13T00:00:00.000Z</published>
+    <updated>2018-03-21T09:08:20.121Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;For my pet project I am using the &lt;a href=&quot;https://www.visualstudio.com/team-services/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Visual Studio Team
+      
+    
+    </summary>
+    
+      <category term="Continuous Integration, Continuous Deployment" scheme="http://blog.sasin.eu/categories/Continuous-Integration-Continuous-Deployment/"/>
+    
+    
+      <category term="Visual Studio Team Services" scheme="http://blog.sasin.eu/tags/Visual-Studio-Team-Services/"/>
+    
+      <category term="test" scheme="http://blog.sasin.eu/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>The Configuration File &#39;Configuration.json&#39; Was Not Found and Is Not Optional.</title>
+    <link href="http://blog.sasin.eu/2016/05/23/the-configuration-file-configuration-json-was-not-found-and-is-not-optional/"/>
+    <id>http://blog.sasin.eu/2016/05/23/the-configuration-file-configuration-json-was-not-found-and-is-not-optional/</id>
+    <published>2016-05-23T00:00:00.000Z</published>
+    <updated>2018-03-21T09:08:20.119Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;problem&quot;&gt;&lt;a href=&quot;#problem&quot; class=&quot;headerlink&quot; title=&quot;problem&quot;&gt;&lt;/a&gt;problem&lt;/h2&gt;&lt;p&gt;When I switched to RC2 and tried to publish the we
+      
+    
+    </summary>
+    
+      <category term="programming" scheme="http://blog.sasin.eu/categories/programming/"/>
+    
+    
+      <category term="bug" scheme="http://blog.sasin.eu/tags/bug/"/>
+    
+      <category term="ASP.NET Core" scheme="http://blog.sasin.eu/tags/ASP-NET-Core/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Automatic OneClick Publish on Build Server</title>
+    <link href="http://blog.sasin.eu/2015/10/05/automatic-oneclick-publish-on-build-server/"/>
+    <id>http://blog.sasin.eu/2015/10/05/automatic-oneclick-publish-on-build-server/</id>
+    <published>2015-10-05T00:00:00.000Z</published>
+    <updated>2018-03-21T09:08:20.117Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;I like the idea of the Continuous Deployment. I am also using the Visual Studio Online build server. &lt;/p&gt;
+&lt;p&gt;To see what I can do with it
+      
+    
+    </summary>
+    
+      <category term="Continous Integration, Continuous Deployment" scheme="http://blog.sasin.eu/categories/Continous-Integration-Continuous-Deployment/"/>
+    
+    
+      <category term="OneClick" scheme="http://blog.sasin.eu/tags/OneClick/"/>
+    
+      <category term="Powershell" scheme="http://blog.sasin.eu/tags/Powershell/"/>
+    
+  </entry>
+  
+</feed>
