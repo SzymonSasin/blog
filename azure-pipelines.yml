@@ -19,8 +19,9 @@ steps:
     arguments: 'install'
 - task: Yarn@3
   inputs:
-    arguments: 'build -d $(Pipeline.Workspace)'
-- task: PublishPipelineArtifact@1
+    arguments: 'build -d $(Build.ArtifactStagingDirectory)'
+- task: PublishBuildArtifacts@1
   inputs:
-    targetPath: '$(Pipeline.Workspace)'
-    artifact: 'blog_site'
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'blog_site'
+    publishLocation: 'Container'
