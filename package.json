@@ -1,0 +1,20 @@
+{
+  "name": "yet_another_technical_blog",
+  "version": "0.0.1",
+  "description": "Yet anohter technical blog with no proper name",
+  "main": "index.js",
+  "authors": {
+    "name": "Assassyn",
+    "email": "assassyn@..."
+  },
+  "repository": "https://github.com/Assassyn/blog.git",
+  "scripts": {
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.0.1",
+    "@vuepress/theme-blog": "^1.1.0"
+  }
+}
