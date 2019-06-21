@@ -1,4 +1,5 @@
 # Starter pipeline
+
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
@@ -19,5 +20,10 @@ steps:
     productionMode: true
 - task: Yarn@3
   inputs:
-    arguments: 'build'
+    arguments: 'build -d $(Build.ArtifactStagingDirectory)'
     productionMode: true
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
