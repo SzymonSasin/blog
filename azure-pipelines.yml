@@ -15,6 +15,9 @@ steps:
     versionSpec: '1.x'
 - task: Yarn@3
   inputs:
-    projectDirectory: '/'
+    arguments: 'install'
+    productionMode: true
+- task: Yarn@3
+  inputs:
     arguments: 'build'
     productionMode: true
