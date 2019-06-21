@@ -6,6 +6,7 @@ tag:
   - vuepress
 author: ULIVZ
 location: Shanghai  
+published: false
 ---
 
 # Writing a VuePress theme
