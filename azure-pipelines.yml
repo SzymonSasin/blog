@@ -14,6 +14,10 @@ steps:
 - task: YarnInstaller@3
   inputs:
     versionSpec: '1.x'
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: 'ls'
 - task: Yarn@3
   inputs:
     arguments: 'install'
