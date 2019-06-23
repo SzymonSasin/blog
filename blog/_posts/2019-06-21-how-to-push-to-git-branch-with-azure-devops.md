@@ -50,7 +50,7 @@ git clone $path
 
 ### Change repo to gh-pages
 This step has an additional requirementes to set up the working directyory: 
-![working directory setup](/iamges/2019-06-21/step3.png)
+![working directory setup](/images/2019-06-21/step3.png)
 
 ```
 git checkout gh-pages
