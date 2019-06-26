@@ -1,11 +1,15 @@
+const blogUrl = 'https://blog.sasin.eu'
 module.exports = {
   title: 'Yet another technical blog',
   description: 'A wasy to share my passion for solving problems, sometimes with a help of code.',
   theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
   plugins: {
     'sitemap': {
-      hostname: 'https://blog.sasin.eu'
+      hostname: blogUrl
     },
+    'feed':{
+      canonical_base: blogUrl
+    }
   },
   themeConfig: {
     /**
