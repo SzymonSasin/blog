@@ -44,6 +44,12 @@ module.exports = {
           link: 'https://github.com/assassyn',
         },
       ],
+      sitemap: [
+        {
+          type: 'sitemap',
+          link: 'https://blog.sasin.eu/sitemap.xml',
+        },
+        ],
       copyright: [
         {
           text: 'MIT Licensed | Copyright © 2018-present Vue.js',
