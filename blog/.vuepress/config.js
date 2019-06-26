@@ -2,6 +2,11 @@ module.exports = {
   title: 'Yet another technical blog',
   description: 'A wasy to share my passion for solving problems, sometimes with a help of code.',
   theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
+  plugins: {
+    'sitemap': {
+      hostname: 'https://blog.sasin.eu'
+    },
+  },
   themeConfig: {
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/#modifyblogpluginoptions
