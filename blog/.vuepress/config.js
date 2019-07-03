@@ -1,7 +1,7 @@
 const blogUrl = 'https://blog.sasin.eu'
 module.exports = {
-  title: 'Yet another technical blog',
-  description: 'A wasy to share my passion for solving problems, sometimes with a help of code.',
+  title: 'A life as freelancer',
+  description: 'My journey to personal happines',
   theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
   plugins: {
     'sitemap': {
