@@ -6,7 +6,7 @@ tag:
   - CICD
   - git
   - vuepress
-author: Assassyn
+author: Szymon
 location: United Kingodm  
 ---
 
